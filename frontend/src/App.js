@@ -39,11 +39,20 @@ const App = () => {
             <Route path='/admin/user/:id/edit' element={<UserEditScreen />} />
             <Route path='/admin/productlist' element={<ProductListScreen />} />
             <Route
+              path='/admin/productlist/:pageNumber'
+              element={<ProductListScreen />}
+            />
+            <Route
               path='/admin/product/:id/edit'
               element={<ProductEditScreen />}
             />
             <Route path='/admin/orderlist' element={<OrderListScreen />} />
             <Route path='/search/:keyword' element={<Homescreen />} />
+            <Route path='/page/:pageNumber' element={<Homescreen />} />
+            <Route
+              path='/search/:keyword/page/:pageNumber'
+              element={<Homescreen />}
+            />
             <Route path='/' element={<Homescreen />} />
           </Routes>
         </Container>
