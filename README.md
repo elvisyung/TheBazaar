@@ -8,10 +8,10 @@ Create a .env file in then root and add the following
 
 ```
 NODE_ENV = development
-PORT = 5000
-MONGO_URI = your mongodb uri
-JWT_SECRET = 'any random string without spaces'
-PAYPAL_CLIENT_ID = your paypal client id
+PORT = 4000
+MONGO_URI = 'your_personal_mongodb_uri'
+JWT_SECRET = 'random_string_without_spaces'
+PAYPAL_CLIENT_ID = 'your_personal_paypal_client_id'
 ```
 
 ### Install Dependencies (frontend & backend)
@@ -25,7 +25,7 @@ npm install
 ### Run
 
 ```bash
-# Run frontend (:3000) & backend (:5000)
+# Run frontend (:3000) & backend (:4000)
 npm run dev
 
 # Run backend only
@@ -35,13 +35,10 @@ npm run server
 ## Build & Deploy
 
 ```bash
-# Create frontend prod build
+# Create frontend production build
 cd frontend
 npm run build
 ```
-
-There is a Heroku postbuild script, so if you push to Heroku, no need to build manually for deployment to Heroku
-
 ### Seed Database
 
 You can use the following commands to seed the database with some sample users and products as well as destroy all data
