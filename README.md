@@ -54,7 +54,7 @@ npm run dev
 npm run server
 ```
 
-## Build and Deploy
+## Build and Deploy via Render
 
 ```bash
 # Create frontend production build
