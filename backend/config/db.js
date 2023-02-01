@@ -2,6 +2,7 @@ import mongoose from 'mongoose';
 import path from 'path';
 import dotenv from 'dotenv';
 
+const __dirname = path.resolve();
 dotenv.config({ path: path.resolve(__dirname, '../../.env') });
 console.log(
   'here...',
