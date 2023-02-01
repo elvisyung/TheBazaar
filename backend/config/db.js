@@ -1,12 +1,19 @@
 import mongoose from 'mongoose';
+import path from 'path';
 import dotenv from 'dotenv';
 
-dotenv.config();
-const source = process.env.MONGO_URI;
+const path = require('path');
+const mongoose = require('mongoose');
+require('dotenv').config({ path: path.resolve(__dirname, '../../.env') });
+console.log(
+  'here...',
+  path.resolve(__dirname, '../../.env'),
+  process.env.MONGO_URI
+);
 
 const connectDB = async () => {
   try {
-    const conn = await mongoose.connect(source, {
+    const conn = await mongoose.connect(process.env.MONGO_URI, {
       useNewUrlParser: true,
     });
 
