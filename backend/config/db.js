@@ -1,9 +1,6 @@
 import mongoose from 'mongoose';
 import path from 'path';
-import dotenv from 'dotenv';
 
-const path = require('path');
-const mongoose = require('mongoose');
 require('dotenv').config({ path: path.resolve(__dirname, '../../.env') });
 console.log(
   'here...',
