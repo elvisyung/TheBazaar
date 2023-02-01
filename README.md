@@ -25,7 +25,7 @@ TheBazaar is a MERN full stack e-commerece web application project that was insp
 - Admin product, orders (shipping) and user management system page
 - Checkout process with Paypal/Credit Card integration 
 
-## Usage
+## Run Deployment / Localhost 
 
 ### Env Variables
 
