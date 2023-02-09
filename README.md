@@ -1,7 +1,7 @@
 # TheBazaar | A MERN Full Stack E-commerce Web Application Project 
 
 ## Website Walkthrough: https://www.youtube.com/watch?v=kyf5Zkg9TwM&ab_channel=ElvisYung
-## Live Site: https://thebazaar.onrender.com/
+## Live Site: https://thebazaarsite.onrender.com/
 
 ## Description
 TheBazaar is a MERN full-stack e-commerce web application project inspired by Brad Traversy's iteration. This project showcases MERN full-stack knowledge with beautiful UI designs from React-bootstrap and custom components. This website features items that are stored in a MongoDB atlas database of which the Admin can delete, edit and upload different things into the database, fulfilling a fully functional CRUD application. The checkout system is integrated via Paypal and features a delivery process. 
