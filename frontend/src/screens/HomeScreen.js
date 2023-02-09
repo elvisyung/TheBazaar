@@ -45,7 +45,7 @@ const Homescreen = () => {
       ) : (
         <>
           <Row>
-            {products.map((product) => (
+            {products?.map((product) => (
               <Col
                 key={product._id}
                 sm={12}
