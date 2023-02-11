@@ -1,6 +1,6 @@
 # TheBazaar | A MERN Full Stack E-commerce Web Application Project 
 
-## Website Walkthrough: https://www.youtube.com/watch?v=kyf5Zkg9TwM&ab_channel=ElvisYung
+## Website Walkthrough - Demo: https://www.youtube.com/watch?v=kyf5Zkg9TwM&ab_channel=ElvisYung
 ## Live Site: https://thebazaarsite.onrender.com/
 
 ## Description
